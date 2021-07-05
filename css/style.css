@@ -1,0 +1,360 @@
+body{
+    background-color: hsl(217, 28%, 15%);
+}
+.logo img{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.links{
+    list-style-type: none;
+    color: hsl(0, 0%, 100%);
+    justify-content: end;
+    margin-right: 40px;
+    margin-left: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.flex-container1{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.up{
+    background-color: hsl(217, 28%, 15%);
+}
+.section1{
+    text-align: center;
+    margin-top: 100px;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+.section1 img{
+    margin: 0 auto;
+    display: inline-block;
+}
+.section1 h1{
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Raleway', sans-serif;
+}
+.anywhere{
+    margin-top: -20px;
+}
+button{
+    width: 11rem;
+    height: 2rem;
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(198, 60%, 50%);
+    border-radius: 25px;
+    outline: none;
+    margin: 20px auto;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+}
+.section2{
+    background-image:url("../bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: -30px;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.containeraccess h2{
+    font-family: 'Raleway', sans-serif;
+}
+.containercolla h2{
+    font-family: 'Raleway', sans-serif;
+}
+.parag{
+    text-align: center;
+    margin: 50px auto 0;
+    width: 60%;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.containeraccess{
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    color:hsl(0, 0%, 100%);
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.containercolla{
+    display: flex;
+    margin: 50px auto 0;
+    width: 60%;
+    color: hsl(0, 0%, 100%);
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.containerproduct{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 50px;
+    color: hsl(0, 0%, 100%);
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.containerproduct a{
+    color: hsl(198, 60%, 50%);
+    padding-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.containerproduct p{
+    padding-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.containerproduct h1{
+    padding-left: 30px;
+    font-family: 'Raleway', sans-serif;
+}
+.testimonialsContainer{
+    display: flex;
+    width: 90%;
+    margin: 100px auto 0;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 2;
+}
+.testimonials{
+    background-color: hsl(217, 28%, 15%);
+    padding: 20px;
+    text-align: left;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.info img{
+    border-radius: 50%;
+    margin-right: 15px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 50px;
+    height:30px
+}
+.name{
+    margin-bottom: -5px;
+    margin-top: 8px;
+}
+.name ~ p{
+    font-size: 14px;
+    margin-top: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.overlap-card{
+    background-color: hsl(217, 28%, 15%);
+    width: 60%;
+    margin: auto;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    position: relative;
+    top: 120px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    border-radius: 15px;
+    line-height: 2;
+}
+.overlap-card{
+    font-family: 'Raleway', sans-serif;
+}
+.inputEmail{
+    border-radius: 25px;
+    width: 25rem;
+    height: 1.8rem;
+    margin-right: 90px;
+    padding-left: 25px;
+    outline: none;
+    margin-top: 20px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+    width: 100%;
+    padding-top: 180px;
+    padding-left: 5em;
+    color: hsl(0, 0%, 100%);
+    margin-right: -10px;
+    margin-left: -10px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    
+}
+.ptag{
+    width: 60%;
+    line-height: 2;
+}
+.location{
+    position: relative;
+    bottom: -39px;
+    left: -25px;
+}
+.phone{
+    position: relative;
+    bottom: -35px;
+    left: -50px;
+}
+.email{
+    position: relative;
+    bottom: -35px;
+    left: -50px;
+}
+.foot-cont{
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: flex-start;
+    line-height: 1.5;
+}
+.icons{
+    color:hsl(0, 0%, 100%);
+    display: flex;
+    padding-top: 15px; 
+}
+.icon{
+    padding: 10px;
+    margin-right: 10px;
+    border: hsl(0, 0%, 100%) solid 1px;
+    border-radius: 50%;
+    height:10px;
+    width: 10px;
+}
+.foot-item li{
+    list-style-type: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.lionly{
+    width: 15%;
+}
+
+@media only screen and (max-width: 375px) {
+    button{
+        width:19.5rem;
+        height:4em;
+        font-weight: 700;
+    }
+    .links{
+        margin-left: -20px;
+    }
+    .linksDiv{
+        margin-right: -60px;
+        font-weight: 400px;
+    }
+    .section1 img{
+        width: 70%;
+        margin-top: 40px;
+    }
+    .containeraccess{
+        flex-direction: column;
+    }
+    .containercolla{
+        flex-direction: column;
+    }
+    .section2{
+        background-image:url("../bg.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin-top: -30px;
+        height: 100%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .containerproduct{
+        flex-direction: column;
+        width: 100%;
+    }
+    .containerproduct img{
+        width: 80%;
+    }
+    .testimonials{
+        flex-direction: column;
+        
+        width: 80%;
+        margin:0 auto 35px;
+    }
+    .testimonialsContainer{
+        flex-direction: column;
+        width: 100%;
+    }
+    .overlap-card{
+        width: 85%;
+        margin: 0 auto;
+        height: 300px;
+
+    }
+    .inputEmail{
+        width: 18rem;
+        height: 4em;
+        margin: auto;
+    }
+    .foot-cont{
+        flex-direction: column;
+        width: 100%;
+    }
+    .ptag{
+        width: 80%;
+        margin-left: 10px;
+    }
+    .phone{
+        left: -30px;
+    }
+    .email{
+        left:-30px ;
+        margin-top: 15px;
+    }
+    .lionly{
+        margin-left: -55px;
+    }
+    .icons{
+        margin-bottom: 50px;
+    }
+    .container{
+        margin-bottom: 90px;
+    }
+}
